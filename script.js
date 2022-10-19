@@ -47,7 +47,7 @@ function lvl4() {
   let guess = prompt(
     "you are starting to get the hang of it! do you want to move on to the next level?"
   );
-  if (guess === "yes") {
+  if (guess === "yes" || "no") {
     return lvl5();
   } else {
     return alert("apperently not! you couldn't even make it past lvl 5...");
