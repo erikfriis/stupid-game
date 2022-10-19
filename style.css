@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(222, 44%, 47%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.button {
+  background-color: #f58f29;
+  color: #4464ad;
+  padding: 2rem;
+  font-size: 2rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #4464ad;
+  color: #f58f29;
+  border: 2px solid #f58f29;
+}
+
+.button:active {
+  scale: 0.98;
+}
+
+.info {
+  color: #a4b0f5;
+  font-size: 1.2rem;
+  margin-top: 0.4rem;
+}
